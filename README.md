@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Saiminyuta
 - 👀 I’m interested in ... candy
 - 🌱 I’m currently learning ... program 
-- ✉️   looking to collaborate 
+
 
 
 <!---
