@@ -1,0 +1,37 @@
+### Hi there 👋
+
+<!--
+**Saiminyuta/Saiminyuta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+
+// save your token in this file
+const config = require("./config.json");
+
+// require the discord.js module
+const Discord = require('discord.js');
+
+// create a new Discord client
+const client = new Discord.Client();
+
+// when the client is ready, run this code
+// this event will only trigger one time after logging in
+client.once('ready', () => {
+	console.log('Ready!');
+});
+
+// login to Discord with your app's token
+client.login(config.token);
+
+// listening a message
+client.on('message', message => {	
+    console.log(message.content);
