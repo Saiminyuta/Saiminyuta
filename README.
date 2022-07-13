@@ -34,4 +34,10 @@ client.login(config.token);
 
 // listening a message
 client.on('message', message => {	
-    console.log(message.content);
+
+    console.log (ข้อความ. เนื้อหา);
+
+elif message.content.startswith('?>รัก'):
+
+   รอ message.channel.send('รัก ~ เหมียว ><')
+
